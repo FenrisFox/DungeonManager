@@ -1,3 +1,47 @@
-p {
-  color:cornflowerblue
+* {
+  margin: 0;
+  padding: 0.5em;
+  box-sizing: border-box;
 }
+
+html {
+  height: 100%;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+button {
+  color: white;
+  background-color: black;
+  border: none;
+  padding: 0.75em 1em;
+}
+
+.header-nav {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color:  #0a0a23;
+}
+
+.header-nav-link {
+  font-weight: 700;
+  margin: 0 25px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.header-nav-link:hover {
+  padding-bottom: 5px;
+  box-shadow: inset 0 -2px 0 0 #fff;
+}
+
