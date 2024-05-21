@@ -28,20 +28,32 @@ button {
 .header-nav {
   height: 40px;
   display: flex;
-  align-items: center;
+  align-items: stretch;
   justify-content: center;
-  background-color:  #0a0a23;
+  background-color:  #0c0c1f;
+  padding: 0px;
 }
 
 .header-nav-link {
+  background-color: #0c0c1f;
+  box-shadow: inset 0 -3px 0 0 #7a7a9e;
+  color: #fff;
   font-weight: 700;
   margin: 0 25px;
-  color: #fff;
   text-decoration: none;
 }
 
 .header-nav-link:hover {
-  padding-bottom: 5px;
-  box-shadow: inset 0 -2px 0 0 #fff;
+  box-shadow: inset 0 -4px 0 0 #7a7a9e;
+  color: #fff;
+  padding-bottom: 6px;
 }
 
+.current-header-nav-link {
+  background-image: linear-gradient(#0c0c1f, #7a7a9e);
+  box-shadow: inset 0 -3px 0 0 #fff;
+}
+
+.current-header-nav-link:hover {
+  box-shadow: inset 0 -4px 0 0 #fff/*, inset 0 4px 0 0 #7a7a9e*/;
+}
